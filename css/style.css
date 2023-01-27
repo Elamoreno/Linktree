@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(255,200,70,0.9920343137254902) 100%);
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration:none;
+    text-align: center;
+    
+}
+
+main{
+    width: 150px;
+    max-width: 500%;
+    margin: 50px auto;
+}
+
+.profail{
+    display: inline-block;
+    margin: left calc(50px - 75px);
+    text-align: center;
+}
+.profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150%;
+    object-fit: cover;
+}
+.profile{
+    font-size: 20px;
+    font-weight:bolder;
+    color:black;
+}
+
+.link-box{
+    background-color: antiquewhite;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+ 
+.link-box:hover{
+    background-color: gray;
+    transform:scale(.80);
+    transition: 0.3s;
+}
+
+.social-box {
+    text-align: center;
+
+}
+.social-box a {
+    margin:0 13px;
+}
+.social-box a span img  {
+    width: 35px;
+}
